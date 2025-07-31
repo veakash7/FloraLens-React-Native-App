@@ -76,7 +76,7 @@ To get a local copy up and running, follow these simple steps.
 ## 📜 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-##ScreenShots
+## ScreenShots
 ![Dynamic HomeScreen](https://github.com/user-attachments/assets/e8fd6108-92ae-4a12-afbc-42758637c28a)
 
 ![Plant family detected](https://github.com/user-attachments/assets/44b8de8e-01f2-4a2b-9289-ca023dad0fd1)
