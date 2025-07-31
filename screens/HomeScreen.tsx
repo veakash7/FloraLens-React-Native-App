@@ -23,7 +23,7 @@ export default function HomeScreen({ navigation }: HomeScreenProps) {
   const [permission, requestPermission] = useCameraPermissions();
   const isFocused = useIsFocused();
   
-  const PLANT_ID_API_KEY = "eNpJchYz0Pgkh28UPPq08GLRTyTvpePRgRv3EJbp1cDUnmmGDQ";
+  const PLANT_ID_API_KEY = process.env.EXPO_PUBLIC_PLANT_ID_API_KEY;
 
   const takePicture = async () => {
     if (cameraRef.current) {
